@@ -16,7 +16,7 @@
         #btn-iniciar { background: #ff4757; }
         #btn-reiniciar { background: #2f3542; }
         #mensaje-final { font-size: 2.2rem; color: #fff; margin: 15px auto; font-weight: bold; display: none; text-shadow: 2px 2px 8px rgba(0,0,0,0.5); }
-        .btn-flotante { position: fixed; bottom: 25px; left: 25px; background: #ffffff; color: #11998e; padding: 15px 22px; font-size: 1.1rem; font-weight: bold; text-decoration: none; border-radius: 50px; box-shadow: 0 6px 15px rgba(0,0,0,0.3); display: flex; align-items: center; gap: 10px; z-index: 9999; }
+        .btn-flotante { position: fixed; bottom: 25px; right: 25px; background: #ffffff; color: #11998e; padding: 15px 22px; font-size: 1.1rem; font-weight: bold; text-decoration: none; border-radius: 50px; box-shadow: 0 6px 15px rgba(0,0,0,0.3); display: flex; align-items: center; gap: 10px; z-index: 9999; }
     </style>
 </head>
 <body>
