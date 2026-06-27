@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Desafío Sumas y Restas - MetaVidaDigital</title>
+    <title>Desafío Arrastra - Pega</title>
     <style>
         body { background: linear-gradient(135deg, #11998e, #38ef7d); color: white; font-family: 'Arial', sans-serif; text-align: center; margin: 0; padding: 20px; min-height: 100vh; }
         #display-score { font-size: 2.5rem; color: #fff; margin: 10px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
@@ -21,7 +21,7 @@
 </head>
 <body>
 
-    <h1>🧮 ¡Desafío de Sumas y Restas! ⚡</h1>
+    <h1>🧮 ¡Desafío Arrastra - Pega! ⚡</h1>
     <div id="display-score">Puntaje: 0</div>
     
     <div class="controles">
