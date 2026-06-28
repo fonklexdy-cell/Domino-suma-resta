@@ -109,7 +109,7 @@
         function allowDrop(ev) { ev.preventDefault(); }
         function finalizarJuego() { juegoActivo = false; const msg = document.getElementById('mensaje-final'); msg.innerText = `🏆 ¡Excelente! Cadena de 10 completada con éxito: ${score} pts ✨`; msg.style.display = 'block'; playBeep('acierto'); }
         function reiniciarJuego() { playBeep('start'); juegoActivo = true; generarEjercicioAleatorio(); }
-        function visitarMateKen(ev) { ev.preventDefault(); playBeep('teleport'); setTimeout(() => { window.open("https://mateken2.netlify.app/", "_blank"); }, 350); }
+        function visitarMateKen(ev) { ev.preventDefault(); playBeep('teleport'); setTimeout(() => { window.open("https://mateken2.pages.dev/", "_blank"); }, 350); }
     </script>
 </body>
 </html>
